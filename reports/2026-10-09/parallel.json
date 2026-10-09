@@ -1,0 +1,1646 @@
+[
+  {
+    "concurrency": 1,
+    "trial": 1,
+    "wallMs": 2746.538,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:06.535Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 1,
+          "trial": 1,
+          "job": 0
+        },
+        "roundTripMs": 2745.404753,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 2560.9002113342003,
+        "value": {
+          "startedAt": 1791567308474,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 1,
+    "trial": 2,
+    "wallMs": 395.1023100000002,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:06.931Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 1,
+          "trial": 2,
+          "job": 0
+        },
+        "roundTripMs": 394.74885300000005,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.76645088196,
+        "value": {
+          "startedAt": 1791567309121,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 1,
+    "trial": 3,
+    "wallMs": 398.82069699999965,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:07.330Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 1,
+          "trial": 3,
+          "job": 0
+        },
+        "roundTripMs": 398.39951199999996,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 346.195936203,
+        "value": {
+          "startedAt": 1791567308888,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 2,
+    "trial": 1,
+    "wallMs": 497.9510220000002,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:07.729Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 2,
+          "trial": 1,
+          "job": 0
+        },
+        "roundTripMs": 397.45833700000003,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.50030326843,
+        "value": {
+          "startedAt": 1791567303627,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:07.829Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 2,
+          "trial": 1,
+          "job": 1
+        },
+        "roundTripMs": 497.1900559999999,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.22469139099,
+        "value": {
+          "startedAt": 1791567307995,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 2,
+    "trial": 2,
+    "wallMs": 397.29680199999984,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:08.226Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 2,
+          "trial": 2,
+          "job": 0
+        },
+        "roundTripMs": 396.8857159999998,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.57516670227,
+        "value": {
+          "startedAt": 1791567310322,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:08.226Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 2,
+          "trial": 2,
+          "job": 1
+        },
+        "roundTripMs": 396.6747290000003,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.66981887817,
+        "value": {
+          "startedAt": 1791567304288,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 2,
+    "trial": 3,
+    "wallMs": 397.9731090000005,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:08.622Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 2,
+          "trial": 3,
+          "job": 0
+        },
+        "roundTripMs": 395.16636299999936,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.75882148743,
+        "value": {
+          "startedAt": 1791567304683,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:08.625Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 2,
+          "trial": 3,
+          "job": 1
+        },
+        "roundTripMs": 397.33961400000044,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.60384941101,
+        "value": {
+          "startedAt": 1791567310817,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 4,
+    "trial": 1,
+    "wallMs": 501.74484200000006,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:09.024Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 1,
+          "job": 0
+        },
+        "roundTripMs": 398.7031959999995,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.95949745178,
+        "value": {
+          "startedAt": 1791567308777,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:09.024Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 1,
+          "job": 1
+        },
+        "roundTripMs": 398.47038799999973,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.95122528076,
+        "value": {
+          "startedAt": 1791567307600,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:09.127Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 1,
+          "job": 2
+        },
+        "roundTripMs": 500.80339600000025,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.04325485229,
+        "value": {
+          "startedAt": 1791567306980,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:09.109Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 1,
+          "job": 3
+        },
+        "roundTripMs": 482.63861199999974,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 345.05057334900005,
+        "value": {
+          "startedAt": 1791567309271,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 4,
+    "trial": 2,
+    "wallMs": 398.0513579999997,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:09.524Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 2,
+          "job": 0
+        },
+        "roundTripMs": 396.3548270000001,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 345.24297714233,
+        "value": {
+          "startedAt": 1791567311080,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:09.525Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 2,
+          "job": 1
+        },
+        "roundTripMs": 397.62118699999974,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.28453445434997,
+        "value": {
+          "startedAt": 1791567304963,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:09.522Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 2,
+          "job": 2
+        },
+        "roundTripMs": 394.6358739999996,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 340.95716476440003,
+        "value": {
+          "startedAt": 1791567305419,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:09.523Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 2,
+          "job": 3
+        },
+        "roundTripMs": 394.7507400000004,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 346.72641754150004,
+        "value": {
+          "startedAt": 1791567311212,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 4,
+    "trial": 3,
+    "wallMs": 399.31840900000043,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:09.922Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 3,
+          "job": 0
+        },
+        "roundTripMs": 396.7786269999997,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 345.43871879577995,
+        "value": {
+          "startedAt": 1791567315630,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:09.922Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 3,
+          "job": 1
+        },
+        "roundTripMs": 396.48911099999987,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.1932926178,
+        "value": {
+          "startedAt": 1791567308501,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:09.925Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 3,
+          "job": 2
+        },
+        "roundTripMs": 398.7720879999997,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.0568447113,
+        "value": {
+          "startedAt": 1791567304493,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:09.919Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 4,
+          "trial": 3,
+          "job": 3
+        },
+        "roundTripMs": 392.67281,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.40159797668,
+        "value": {
+          "startedAt": 1791567315634,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 8,
+    "trial": 1,
+    "wallMs": 504.06641500000023,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:10.322Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 1,
+          "job": 0
+        },
+        "roundTripMs": 396.6746210000001,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.47891807556005,
+        "value": {
+          "startedAt": 1791567312421,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.324Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 1,
+          "job": 1
+        },
+        "roundTripMs": 398.3646199999994,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.11437606812,
+        "value": {
+          "startedAt": 1791567316036,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.328Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 1,
+          "job": 2
+        },
+        "roundTripMs": 402.87062200000037,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.96688842773,
+        "value": {
+          "startedAt": 1791567310693,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.319Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 1,
+          "job": 3
+        },
+        "roundTripMs": 393.15760599999976,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 342.55838394165,
+        "value": {
+          "startedAt": 1791567305757,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.429Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 1,
+          "job": 4
+        },
+        "roundTripMs": 503.27305799999976,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.68968009949003,
+        "value": {
+          "startedAt": 1791567306486,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.419Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 1,
+          "job": 5
+        },
+        "roundTripMs": 493.36781900000005,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.98913383484,
+        "value": {
+          "startedAt": 1791567304993,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.428Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 1,
+          "job": 6
+        },
+        "roundTripMs": 501.9098049999993,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.69556808472004,
+        "value": {
+          "startedAt": 1791567310801,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.408Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 1,
+          "job": 7
+        },
+        "roundTripMs": 481.26865,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 346.45366668701,
+        "value": {
+          "startedAt": 1791567304459,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 8,
+    "trial": 2,
+    "wallMs": 401.0219040000002,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:10.826Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 2,
+          "job": 0
+        },
+        "roundTripMs": 396.1120200000005,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.55537796021,
+        "value": {
+          "startedAt": 1791567304876,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.828Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 2,
+          "job": 1
+        },
+        "roundTripMs": 397.84830599999987,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.25711631775005,
+        "value": {
+          "startedAt": 1791567304879,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.831Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 2,
+          "job": 2
+        },
+        "roundTripMs": 400.4980859999996,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 345.03841400146,
+        "value": {
+          "startedAt": 1791567306263,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.824Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 2,
+          "job": 3
+        },
+        "roundTripMs": 393.3613699999996,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.58565711974995,
+        "value": {
+          "startedAt": 1791567306263,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.827Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 2,
+          "job": 4
+        },
+        "roundTripMs": 396.6124550000004,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.61672401428,
+        "value": {
+          "startedAt": 1791567312384,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.825Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 2,
+          "job": 5
+        },
+        "roundTripMs": 394.07407500000045,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 345.01767158508,
+        "value": {
+          "startedAt": 1791567313015,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.827Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 2,
+          "job": 6
+        },
+        "roundTripMs": 395.9364489999998,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 342.83947944641,
+        "value": {
+          "startedAt": 1791567305399,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:10.818Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 2,
+          "job": 7
+        },
+        "roundTripMs": 387.40302900000006,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 340.54803848267,
+        "value": {
+          "startedAt": 1791567306723,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 8,
+    "trial": 3,
+    "wallMs": 400.28063699999984,
+    "results": [
+      {
+        "at": "2026-10-09T17:35:11.228Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 3,
+          "job": 0
+        },
+        "roundTripMs": 396.48977399999967,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.61712837219,
+        "value": {
+          "startedAt": 1791567309082,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:11.229Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 3,
+          "job": 1
+        },
+        "roundTripMs": 397.94550100000015,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.7208404541,
+        "value": {
+          "startedAt": 1791567310991,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:11.231Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 3,
+          "job": 2
+        },
+        "roundTripMs": 399.62005000000045,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.43473815918003,
+        "value": {
+          "startedAt": 1791567306665,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:11.225Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 3,
+          "job": 3
+        },
+        "roundTripMs": 392.64686299999994,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.10619735718,
+        "value": {
+          "startedAt": 1791567305786,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:11.231Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 3,
+          "job": 4
+        },
+        "roundTripMs": 398.76648000000023,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.74523162842,
+        "value": {
+          "startedAt": 1791567310984,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:11.224Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 3,
+          "job": 5
+        },
+        "roundTripMs": 392.3389419999994,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 341.64118766785003,
+        "value": {
+          "startedAt": 1791567313325,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:11.228Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 3,
+          "job": 6
+        },
+        "roundTripMs": 395.61193699999967,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 341.25709533691,
+        "value": {
+          "startedAt": 1791567312793,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:35:11.223Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 8,
+          "trial": 3,
+          "job": 7
+        },
+        "roundTripMs": 390.9173499999997,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 343.99008750916,
+        "value": {
+          "startedAt": 1791567312790,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      }
+    ]
+  },
+  {
+    "concurrency": 16,
+    "trial": 1,
+    "wallMs": 571.053472,
+    "results": [
+      {
+        "at": "2026-10-09T17:49:29.986Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 0
+        },
+        "roundTripMs": 569.245848,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.7322845459,
+        "value": {
+          "startedAt": 1791568170153,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.979Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 1
+        },
+        "roundTripMs": 543.040286,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.25568580627,
+        "value": {
+          "startedAt": 1791568165406,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.660Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 2
+        },
+        "roundTripMs": 223.09371299999998,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.652Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 3
+        },
+        "roundTripMs": 215.632664,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.655Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 4
+        },
+        "roundTripMs": 217.741697,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.987Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 5
+        },
+        "roundTripMs": 549.361452,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.47002410889,
+        "value": {
+          "startedAt": 1791568170156,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.985Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 6
+        },
+        "roundTripMs": 546.763626,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.4287776947,
+        "value": {
+          "startedAt": 1791568168559,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.653Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 7
+        },
+        "roundTripMs": 214.307352,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.985Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 8
+        },
+        "roundTripMs": 545.469252,
+        "ok": true,
+        "httpStatus": 200,
+        "serverMs": 344.30575370789,
+        "value": {
+          "startedAt": 1791568170357,
+          "iterations": 250000000,
+          "checksum": 2259342271
+        },
+        "error": null,
+        "errorType": null,
+        "errorCode": null,
+        "parameters": null,
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.656Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 9
+        },
+        "roundTripMs": 215.97500099999996,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.653Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 10
+        },
+        "roundTripMs": 213.08961299999999,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.656Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 11
+        },
+        "roundTripMs": 216.144461,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.654Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 12
+        },
+        "roundTripMs": 213.69377300000002,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.660Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 13
+        },
+        "roundTripMs": 219.250676,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.661Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 14
+        },
+        "roundTripMs": 220.045818,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      },
+      {
+        "at": "2026-10-09T17:49:29.668Z",
+        "appId": "app<redacted>",
+        "input": {
+          "kind": "cpu",
+          "iterations": 250000000,
+          "phase": "parallel",
+          "concurrency": 16,
+          "trial": 1,
+          "job": 15
+        },
+        "roundTripMs": 227.53024,
+        "ok": false,
+        "httpStatus": 429,
+        "serverMs": null,
+        "error": "Too many requests: retry after 7",
+        "errorType": "RATE_LIMITED",
+        "errorCode": 429,
+        "parameters": {
+          "retry_after": 7
+        },
+        "logs": []
+      }
+    ]
+  }
+]

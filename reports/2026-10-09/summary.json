@@ -1,0 +1,105 @@
+{
+  "appId": "app<redacted>",
+  "measuredThrough": "2026-10-09T19:10:24.429Z",
+  "recordedInvocations": 394,
+  "heap": {
+    "largestSuccessfulPayloadMiB": 127,
+    "smallestFailedPayloadMiB": 128,
+    "successful127MiBTrials": 4,
+    "failed128MiBTrials": 4,
+    "error": "Terminated: Memory limit exceeded",
+    "payload": "Arrays of non-integer JS numbers, estimated at 8 bytes per element; excludes other heap allocations."
+  },
+  "buffers": {
+    "largestVerifiedBytes": 6442450944,
+    "largestObservedAllocationBytes": 8589934592,
+    "exactStableLimitConfirmed": false,
+    "upperLimitFound": false,
+    "observedMemoryLimitErrors": true,
+    "details": "buffer-summary.json"
+  },
+  "cpu": {
+    "logicalCores": null,
+    "terminationTimesMs": [
+      3016.4856910706003,
+      3007.4534416199003,
+      3003.714799881,
+      3002.8350353241
+    ],
+    "medianTerminationMs": 3005.58412075045,
+    "billionIterationsMedianMs": 1366.0602569579999,
+    "error": "Terminated: CPU timer exceeded"
+  },
+  "database": {
+    "largestVerifiedBlobPayloadBytes": 520093696,
+    "failedAdditionalBytesAtThatSize": 1048576,
+    "blobBytesPerRow": 65536,
+    "errors": [
+      "Sqlite database size limit exceeded",
+      "Sqlite query failed (commit) [13] database or disk is full"
+    ],
+    "physicalDiskCapacityBytes": null,
+    "compactionAvailable": false
+  },
+  "parallel": [
+    {
+      "concurrency": 1,
+      "successfulTrials": 3,
+      "totalTrials": 3,
+      "medianBatchMs": 398.82069699999965,
+      "relativeThroughput": 1.0,
+      "rateLimitedRequests": 0
+    },
+    {
+      "concurrency": 2,
+      "successfulTrials": 3,
+      "totalTrials": 3,
+      "medianBatchMs": 397.9731090000005,
+      "relativeThroughput": 2.004259523977029,
+      "rateLimitedRequests": 0
+    },
+    {
+      "concurrency": 4,
+      "successfulTrials": 3,
+      "totalTrials": 3,
+      "medianBatchMs": 399.31840900000043,
+      "relativeThroughput": 3.995014384623567,
+      "rateLimitedRequests": 0
+    },
+    {
+      "concurrency": 8,
+      "successfulTrials": 3,
+      "totalTrials": 3,
+      "medianBatchMs": 401.0219040000002,
+      "relativeThroughput": 7.956088044507404,
+      "rateLimitedRequests": 0
+    },
+    {
+      "concurrency": 16,
+      "successfulTrials": 0,
+      "totalTrials": 1,
+      "medianBatchMs": null,
+      "relativeThroughput": null,
+      "rateLimitedRequests": 11
+    }
+  ],
+  "cleanup": {
+    "at": "2026-10-09T17:59:36.987Z",
+    "appId": "app<redacted>",
+    "revision": 0,
+    "moduleNames": [],
+    "databaseTables": [],
+    "readWriteCheck": {
+      "rows": 1,
+      "bytes": 1024
+    },
+    "probeTablesRemoved": true
+  },
+  "limits": [
+    "No physical core count was exposed.",
+    "Tests use the management /run endpoint; production throughput was not measured.",
+    "The API rate limit prevented interpreting the 16-request batch as a CPU concurrency test.",
+    "The SQLite payload limit depends on schema, row sizes and indexes; physical volume size is unknown.",
+    "A byte-exact stable buffer limit was not confirmed: identical 8 GiB requests both succeeded and failed; 6 GiB was fully written and verified."
+  ]
+}

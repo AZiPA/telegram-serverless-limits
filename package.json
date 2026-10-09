@@ -1,0 +1,22 @@
+{
+  "name": "telegram-serverless-limits",
+  "description": "Measured Telegram Serverless memory, CPU, SQLite storage and concurrency limits, with reproducible probes.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaYzTm/telegram-serverless-limits.git"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "diagnose": "tgcloud run endpoints/diagnostics",
+    "probe": "node experiments/run.mjs",
+    "test": "node --experimental-vm-modules --test"
+  },
+  "devDependencies": {
+    "@tgcloud/cli": "0.2.0"
+  }
+}

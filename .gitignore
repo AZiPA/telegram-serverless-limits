@@ -1,0 +1,9 @@
+node_modules/
+.tgcloud/
+.env
+.env.*
+npm-debug.log*
+
+# Local runs stay separate from the published evidence snapshot.
+reports/*.json
+reports/*.jsonl

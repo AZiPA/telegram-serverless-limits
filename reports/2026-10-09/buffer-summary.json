@@ -1,0 +1,110 @@
+{
+  "appId": "app<redacted>",
+  "measuredThrough": "2026-10-09T19:03:18.434Z",
+  "bufferProbeCount": 84,
+  "exactStableLimitConfirmed": false,
+  "largestObservedAllocationBytes": 8589934592,
+  "largestFullyWrittenAndVerifiedBytes": 6442450944,
+  "nextByteTest": {
+    "bytes": 8589934593,
+    "attempts": 13,
+    "successes": 0
+  },
+  "identicalMinimalRuntimeTest": {
+    "bytes": 8589934592,
+    "attempts": 3,
+    "successes": 1,
+    "failures": 2,
+    "evidence": [
+      {
+        "at": "2026-10-09T19:00:51.766Z",
+        "runtime": "minimal",
+        "runtimeSha256": "65f6e3b3b4f8d612aaeccec4cfce4a4d9d8434794b4bf1f97fe77f39148748a5",
+        "input": {
+          "kind": "binary",
+          "bytes": 8589934592,
+          "touch": "edges"
+        },
+        "ok": false,
+        "serverMs": 3.3342838287354,
+        "error": "Terminated: Memory limit exceeded",
+        "value": null
+      },
+      {
+        "at": "2026-10-09T19:00:52.031Z",
+        "runtime": "minimal",
+        "runtimeSha256": "65f6e3b3b4f8d612aaeccec4cfce4a4d9d8434794b4bf1f97fe77f39148748a5",
+        "input": {
+          "kind": "binary",
+          "bytes": 8589934592,
+          "touch": "edges"
+        },
+        "ok": true,
+        "serverMs": 139.56904411316,
+        "error": null,
+        "value": {
+          "totalBytes": 8589934592,
+          "count": 1,
+          "touch": "edges",
+          "verifiedPages": 0,
+          "checksum": 1293436906
+        }
+      },
+      {
+        "at": "2026-10-09T19:00:52.146Z",
+        "runtime": "minimal",
+        "runtimeSha256": "65f6e3b3b4f8d612aaeccec4cfce4a4d9d8434794b4bf1f97fe77f39148748a5",
+        "input": {
+          "kind": "binary",
+          "bytes": 8589934592,
+          "touch": "edges"
+        },
+        "ok": false,
+        "serverMs": 4.3709278106689,
+        "error": "Terminated: Memory limit exceeded",
+        "value": null
+      }
+    ]
+  },
+  "rejectedCandidate": {
+    "largestSuccessfulBytes": 8589571387,
+    "smallestRejectedBytes": 8589571388,
+    "touch": "edges",
+    "confirmed": false
+  },
+  "full8GiBTest": [
+    {
+      "at": "2026-10-09T18:30:49.586Z",
+      "runtime": null,
+      "input": {
+        "kind": "binary",
+        "bytes": 8589934592,
+        "touch": "fill",
+        "chunkBytes": 8589934592,
+        "fullView": true
+      },
+      "ok": false,
+      "serverMs": 41.183710098267,
+      "error": "Terminated: Memory limit exceeded"
+    },
+    {
+      "at": "2026-10-09T19:03:18.434Z",
+      "runtime": "minimal",
+      "input": {
+        "kind": "binary",
+        "bytes": 8589934592,
+        "touch": "fill"
+      },
+      "ok": false,
+      "serverMs": 3029.8354625702,
+      "error": "Terminated: CPU timer exceeded"
+    }
+  ],
+  "interpretation": "8 GiB is the largest observed allocation, not a confirmed invariant per-buffer quota. Allocation outcomes varied at identical inputs and source. CPU timeouts are not memory-size failures.",
+  "health": {
+    "at": "2026-10-09T19:10:24.429Z",
+    "appId": "app<redacted>",
+    "healthy": true,
+    "check": "SELECT 1 AS ok"
+  }
+}
