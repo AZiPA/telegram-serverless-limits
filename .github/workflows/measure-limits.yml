@@ -1,6 +1,7 @@
 name: Measure Limits
 
 on:
+  push:
   workflow_dispatch:
     inputs:
       phase:
