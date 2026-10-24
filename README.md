@@ -21,12 +21,12 @@ Methods and evidence: [CPU, memory, storage and concurrency](reports/capacity.md
 
 ## Try a small diagnostic
 
-Requires Node.js 18+ and a bot with Telegram Serverless enabled.
+Requires Node.js 24+ and a bot with Telegram Serverless enabled.
 
 ```bash
 git clone https://github.com/DaYzTm/telegram-serverless-limits.git
 cd telegram-serverless-limits
-npm ci
+npm install --no-package-lock
 npx tgcloud login
 npm run diagnose
 ```
