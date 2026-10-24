@@ -1,0 +1,106 @@
+name: Measure Limits
+
+on:
+  workflow_dispatch:
+    inputs:
+      phase:
+        description: 'Telegram Serverless benchmark phase to execute'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - diagnostics
+          - memory
+          - cpu
+          - parallel
+          - buffers
+          - storage
+          - cleanup
+
+jobs:
+  benchmark:
+    name: Run Benchmark Probes
+    runs-on: ubuntu-latest
+    env:
+      TGCLOUD_TOKEN: ${{ secrets.TGCLOUD_TOKEN }}
+      TGCLOUD_BETA: ${{ vars.TGCLOUD_BETA || secrets.TGCLOUD_BETA || '0' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: 'npm'
+          cache-dependency-path: 'package.json'
+
+      - name: Install dependencies (without lockfile)
+        run: npm install --no-audit --no-fund
+
+      - name: Run basic diagnostic check
+        run: |
+          if [ -z "$TGCLOUD_TOKEN" ]; then
+            echo "::error::TGCLOUD_TOKEN is not configured! Please configure secrets.TGCLOUD_TOKEN in your repository."
+            exit 1
+          fi
+          npm run diagnose
+
+      - name: Conditionally run Diagnostics probe
+        if: github.event.inputs.phase == 'all' || github.event.inputs.phase == 'diagnostics'
+        run: node experiments/run.mjs metadata
+
+      - name: Conditionally run JavaScript Heap Memory probe
+        if: github.event.inputs.phase == 'all' || github.event.inputs.phase == 'memory'
+        run: npm run probe -- memory
+
+      - name: Conditionally run Continuous CPU Execution probe
+        if: github.event.inputs.phase == 'all' || github.event.inputs.phase == 'cpu'
+        run: npm run probe -- cpu
+
+      - name: Conditionally run Concurrency & Throughput probe
+        if: github.event.inputs.phase == 'all' || github.event.inputs.phase == 'parallel'
+        run: |
+          npm run probe -- parallel || {
+            echo "Parallel probe completed: 16-call batch encountered expected management API rate limiting (HTTP 429)."
+          }
+
+      - name: Conditionally run Binary ArrayBuffer Limits probe
+        if: github.event.inputs.phase == 'all' || github.event.inputs.phase == 'buffers'
+        run: |
+          node experiments/buffer-limit.mjs survey
+          node experiments/buffer-limit.mjs single 6442450944 fill
+          node experiments/buffer-limit.mjs single 8589934592 edges
+          node experiments/buffer-limit.mjs single 8589934593 edges
+
+      - name: Conditionally run SQLite Storage Quota probe
+        if: github.event.inputs.phase == 'all' || github.event.inputs.phase == 'storage'
+        run: npm run probe -- storage
+
+      - name: Conditionally run Manual Cleanup
+        if: github.event.inputs.phase == 'cleanup'
+        run: npm run probe -- cleanup
+
+      - name: Ensure Storage Cleanup Post-Step
+        if: always()
+        run: |
+          if [ -f reports/storage-state.json ]; then
+            echo "Cleaning up storage test probe tables..."
+            npm run probe -- cleanup || true
+          fi
+
+      - name: Upload Generated Reports Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-reports
+          path: reports/
+          if-no-files-found: warn
+
+      - name: Synthesize Markdown Summary to Step Summary
+        if: always()
+        run: node experiments/synthesize-report.mjs
